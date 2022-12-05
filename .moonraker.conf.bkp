@@ -57,13 +57,3 @@ type: git_repo
 path: /home/pi/klipper_z_calibration
 origin: https://github.com/protoloft/klipper_z_calibration.git
 install_script: install.sh
-
-[mqtt]
-address: 192.168.38.123
-port: 1823
-instance_name: vorontwofour
-status_objects:
-  toolhead=print_time
-  extruder=temperature
-  chamber=temperature
-  bedheater=temperature
